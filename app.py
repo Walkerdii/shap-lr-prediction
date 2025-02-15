@@ -53,9 +53,7 @@ X_val = df_val[all_features]  # 仅用于 SHAP 解释
 # 3️⃣ 定义并调参 Logistic 回归模型
 # ==============================
 
-pipe = Pipeline([
-    ('lr', LogisticRegression(max_iter=5000))
-])
+pipe = Pipeline([('lr', LogisticRegression(max_iter=5000))])
 
 # 定义超参数网格
 param_grid = {
