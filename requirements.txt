@@ -5,3 +5,4 @@ scikit-learn
 shap
 openpyxl
 streamlit-shap
+matplotlib
